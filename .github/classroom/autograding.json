@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "3\r\n2\r\n1\r\n3\r\n1\r\n4\r\n1\r\n10",
+      "output": "Solusi kombinasi pembelian cokelat ada 0\r\n\r\nPak Oden tidak bisa membahagiakan anaknya satu pun",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "4\r\n7\r\n2\r\n3\r\n3\r\n4\r\n2\r\n2\r\n3\r\n9",
+      "output": "Solusi kombinasi pembelian cokelat ada 4\r\n2 2 2 3\r\n2 3 4\r\n2 7\r\n3 3 3\r\n\r\nPak Oden bisa membahagiakan maksimal 4 anaknya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "5\r\n3\r\n4\r\n4\r\n1\r\n5\r\n2\r\n7\r\n3\r\n8\r\n3\r\n32",
+      "output": "Solusi kombinasi pembelian cokelat ada 12\r\n3 3 3 3 4 8 8\r\n3 3 3 3 5 7 8\r\n3 3 3 4 5 7 7\r\n3 3 3 7 8 8\r\n3 3 4 7 7 8\r\n3 3 5 5 8 8\r\n3 3 5 7 7 7\r\n3 4 5 5 7 8\r\n3 5 8 8 8\r\n3 7 7 7 8\r\n4 5 7 8 8\r\n5 5 7 7 8\r\n\r\nPak Oden bisa membahagiakan maksimal 7 anaknya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "1\r\n3\r\n4\r\n6",
+      "output": "Solusi kombinasi pembelian cokelat ada 1\r\n3 3\r\n\r\nPak Oden bisa membahagiakan maksimal 2 anaknya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\n1\r\n6\r\n8\r\n4\r\n20",
+      "output": "Solusi kombinasi pembelian cokelat ada 1\r\n1 1 1 1 8 8\r\n\r\nPak Oden bisa membahagiakan maksimal 6 anaknya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\n4\r\n2\r\n5\r\n1\r\n2\r\n3\r\n18",
+      "output": "Solusi kombinasi pembelian cokelat ada 0\r\n\r\nPak Oden tidak bisa membahagiakan anaknya satu pun",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "4\r\n2\r\n1\r\n3\r\n2\r\n4\r\n2\r\n6\r\n3\r\n50",
+      "output": "Solusi kombinasi pembelian cokelat ada 0\r\n\r\nPak Oden tidak bisa membahagiakan anaknya satu pun",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "4\r\n6\r\n3\r\n8\r\n2\r\n3\r\n4\r\n2\r\n3\r\n35",
+      "output": "Solusi kombinasi pembelian cokelat ada 5\r\n2 2 2 3 3 3 6 6 8\r\n2 2 2 3 6 6 6 8\r\n2 2 3 3 3 6 8 8\r\n2 2 3 6 6 8 8\r\n3 3 3 6 6 6 8\r\n\r\nPak Oden bisa membahagiakan maksimal 9 anaknya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "5\r\n12\r\n3\r\n11\r\n4\r\n15\r\n4\r\n17\r\n2\r\n20\r\n3",
+      "output": "Solusi kombinasi pembelian cokelat ada 12\r\n11 11 11 11 12 12 12 20 20\r\n11 11 11 11 12 12 15 17 20\r\n11 11 11 11 12 15 15 17 17\r\n11 11 11 12 15 20 20 20\r\n11 11 11 15 15 17 20 20\r\n11 11 12 12 12 15 15 15 17\r\n11 11 12 12 17 17 20 20\r\n11 12 12 15 15 15 20 20\r\n11 12 15 15 15 15 17 20\r\n11 15 17 17 20 20 20\r\n12 12 12 15 15 17 17 20\r\n15 15 15 15 20 20 20\r\n\r\nPak Oden bisa membahagiakan maksimal 9 anaknya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "6\r\n2\r\n3\r\n4\r\n2\r\n5\r\n1\r\n7\r\n3\r\n9\r\n3\r\n1\r\n7\r\n45",
+      "output": "Solusi kombinasi pembelian cokelat ada 75\r\n1 1 1 1 1 1 1 2 2 2 4 5 7 7 9\r\n1 1 1 1 1 1 1 2 2 2 5 9 9 9\r\n1 1 1 1 1 1 1 2 2 2 7 7 9 9\r\n1 1 1 1 1 1 1 2 2 4 4 5 7 7 7\r\n1 1 1 1 1 1 1 2 2 4 5 7 9 9\r\n1 1 1 1 1 1 1 2 2 4 7 7 7 9\r\n1 1 1 1 1 1 1 2 2 7 9 9 9\r\n1 1 1 1 1 1 1 2 4 4 5 7 7 9\r\n1 1 1 1 1 1 1 2 4 5 9 9 9\r\n1 1 1 1 1 1 1 2 4 7 7 9 9\r\n1 1 1 1 1 1 1 4 4 5 7 9 9\r\n1 1 1 1 1 1 1 4 4 7 7 7 9\r\n1 1 1 1 1 1 1 4 7 9 9 9\r\n1 1 1 1 1 1 2 2 2 4 4 7 9 9\r\n1 1 1 1 1 1 2 2 4 4 9 9 9\r\n1 1 1 1 1 1 2 2 5 7 7 7 9\r\n1 1 1 1 1 1 2 5 7 7 9 9\r\n1 1 1 1 1 1 4 5 7 7 7 9\r\n1 1 1 1 1 1 5 7 9 9 9\r\n1 1 1 1 1 1 7 7 7 9 9\r\n1 1 1 1 1 2 2 2 4 4 5 7 7 7\r\n1 1 1 1 1 2 2 2 4 5 7 9 9\r\n1 1 1 1 1 2 2 2 4 7 7 7 9\r\n1 1 1 1 1 2 2 2 7 9 9 9\r\n1 1 1 1 1 2 2 4 4 5 7 7 9\r\n1 1 1 1 1 2 2 4 5 9 9 9\r\n1 1 1 1 1 2 2 4 7 7 9 9\r\n1 1 1 1 1 2 4 4 5 7 9 9\r\n1 1 1 1 1 2 4 4 7 7 7 9\r\n1 1 1 1 1 2 4 7 9 9 9\r\n1 1 1 1 1 4 4 5 9 9 9\r\n1 1 1 1 1 4 4 7 7 9 9\r\n1 1 1 1 2 2 2 4 4 9 9 9\r\n1 1 1 1 2 2 2 5 7 7 7 9\r\n1 1 1 1 2 2 5 7 7 9 9\r\n1 1 1 1 2 4 5 7 7 7 9\r\n1 1 1 1 2 5 7 9 9 9\r\n1 1 1 1 2 7 7 7 9 9\r\n1 1 1 1 4 5 7 7 9 9\r\n1 1 1 1 7 7 9 9 9\r\n1 1 1 2 2 2 4 4 5 7 7 9\r\n1 1 1 2 2 2 4 5 9 9 9\r\n1 1 1 2 2 2 4 7 7 9 9\r\n1 1 1 2 2 4 4 5 7 9 9\r\n1 1 1 2 2 4 4 7 7 7 9\r\n1 1 1 2 2 4 7 9 9 9\r\n1 1 1 2 4 4 5 9 9 9\r\n1 1 1 2 4 4 7 7 9 9\r\n1 1 1 4 4 7 9 9 9\r\n1 1 2 2 2 5 7 7 9 9\r\n1 1 2 2 4 5 7 7 7 9\r\n1 1 2 2 5 7 9 9 9\r\n1 1 2 2 7 7 7 9 9\r\n1 1 2 4 5 7 7 9 9\r\n1 1 2 7 7 9 9 9\r\n1 1 4 4 5 7 7 7 9\r\n1 1 4 5 7 9 9 9\r\n1 1 4 7 7 7 9 9\r\n1 2 2 2 4 4 5 7 9 9\r\n1 2 2 2 4 4 7 7 7 9\r\n1 2 2 2 4 7 9 9 9\r\n1 2 2 4 4 5 9 9 9\r\n1 2 2 4 4 7 7 9 9\r\n1 2 4 4 7 9 9 9\r\n1 5 7 7 7 9 9\r\n2 2 2 4 5 7 7 7 9\r\n2 2 2 5 7 9 9 9\r\n2 2 2 7 7 7 9 9\r\n2 2 4 5 7 7 9 9\r\n2 2 7 7 9 9 9\r\n2 4 4 5 7 7 7 9\r\n2 4 5 7 9 9 9\r\n2 4 7 7 7 9 9\r\n4 4 5 7 7 9 9\r\n4 7 7 9 9 9\r\n\r\nPak Oden bisa membahagiakan maksimal 15 anaknya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}

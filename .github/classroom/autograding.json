@@ -84,7 +84,7 @@
       "name": "09",
       "setup": "",
       "run": "./soal-02",
-      "input": "5\r\n12\r\n3\r\n11\r\n4\r\n15\r\n4\r\n17\r\n2\r\n20\r\n3",
+      "input": "5\r\n12\r\n3\r\n11\r\n4\r\n15\r\n4\r\n17\r\n2\r\n20\r\n3\r\n120",
       "output": "Solusi kombinasi pembelian cokelat ada 12\r\n11 11 11 11 12 12 12 20 20\r\n11 11 11 11 12 12 15 17 20\r\n11 11 11 11 12 15 15 17 17\r\n11 11 11 12 15 20 20 20\r\n11 11 11 15 15 17 20 20\r\n11 11 12 12 12 15 15 15 17\r\n11 11 12 12 17 17 20 20\r\n11 12 12 15 15 15 20 20\r\n11 12 15 15 15 15 17 20\r\n11 15 17 17 20 20 20\r\n12 12 12 15 15 17 17 20\r\n15 15 15 15 20 20 20\r\n\r\nPak Oden bisa membahagiakan maksimal 9 anaknya",
       "comparison": "included",
       "timeout": 1,

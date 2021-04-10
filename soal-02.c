@@ -96,10 +96,13 @@ int maxCokelat(int sol[200][200]){
 void print(int sol[200][200]){
     //Mencetak kombinasi pembelian cokelat secara terurut dari terkecil
     int i, j;
-    printf("\nSolusi kombinasi pembelian cokelat ada %d \n", Nsol);
+    printf("\nSolusi kombinasi pembelian cokelat ada %d\n", Nsol);
     for(i=0; i<Nsol; i++){
         for(j=0; j<sol[i][0]; j++){
-            printf("%d ", sol[i][j+1]);
+            if (j != sol[i][0] - 1)
+                printf("%d ", sol[i][j+1]);
+            else
+                printf("%d", sol[i][j+1]);
         }
         printf("\n");
     }
